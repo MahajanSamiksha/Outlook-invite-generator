@@ -63,7 +63,7 @@ export const generateIcsContent = (events: TimesheetEvent[]): string => {
 
   const dtstamp = new Date().toISOString().replace(/[-:.]/g, '') + 'Z';
   const summary = 'Reminder: Submit Timesheet';
-  const description = 'Please submit your HCL timesheet. If the due date falls on a weekend, please submit on the preceding Friday. Thank you!';
+  const description = 'Timesheet time! Submit your Time Journals on HCL to save yourself from approval requests and USP ticket chaos!';
 
   const eventStrings = events.map((event) => {
     // Create a stable UID based on the logical event (e.g., mid-month reminder for July 2024).
