@@ -1,0 +1,5 @@
+{
+  "name": "Timesheet Reminder Invite Generator",
+  "description": "An application to generate a calendar invite (.ics file) for timesheet submission reminders. The invites are set for the 15th and last day of each month, automatically adjusting to the preceding Friday if the date falls on a weekend.",
+  "requestFramePermissions": []
+}
