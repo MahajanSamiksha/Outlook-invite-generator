@@ -1,9 +1,8 @@
-
 import React, { useState, useCallback } from 'react';
-import Header from './components/Header.tsx';
-import EventCard from './components/EventCard.tsx';
-import { getTimesheetDates, generateIcsContent } from './services/calendarService.ts';
-import { TimesheetEvent } from './types.ts';
+import Header from './components/Header';
+import EventCard from './components/EventCard';
+import { getTimesheetDates, generateIcsContent } from './services/calendarService';
+import { TimesheetEvent } from './types';
 
 const App: React.FC = () => {
   const [events, setEvents] = useState<TimesheetEvent[]>([]);

@@ -1,5 +1,4 @@
-
-import { TimesheetEvent } from '../types.ts';
+import { TimesheetEvent } from '../types';
 
 /**
  * Adjusts a date to the preceding Friday if it falls on a weekend.

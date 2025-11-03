@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { TimesheetEvent } from '../types.ts';
+import { TimesheetEvent } from '../types';
 
 interface EventCardProps {
   event: TimesheetEvent;
